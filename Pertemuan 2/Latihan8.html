@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2> Form Input Data Mahasiswa</h2>
+    <form method="POST" action="proses.php">
+        Nama Mahasiswa : <br>
+        <input type="text" name="Nama_mahasiswa" size="40"><br>
+        NIM: <br>
+        <input type="text" name="nim" size="20"><br>
+        Jenis Kelamin: <br>
+        <input type="radio" name="Jenis_Kelamin">Laki-Laki
+        <input type="radio" name="Jenis_Kelamin">Perempuan <br>
+        Hobi: <br>
+        <input type="checkbox" name="Hobi">Mancing
+        <input type="checkbox" name="Hobi">Membaca
+        <input type="checkbox" name="Hobi">Mencuri <br>
+        Alamat: <br>
+        <textarea name="Alamat"></textarea>
+        <br> Agama:
+        <select name="Agama">
+            <option value="-">Pilih</option>
+            <option value="Islam">Islam</option>
+            <option value="Kafir">Kafir</option>
+        </select><br>
+        Username: <br>
+        <input type="text" name="Username" size="30"><br>
+        Password : <br>
+        <input type="password" name="Password" size="30"><br>
+        Foto:
+        <input type="file"><br><br>
+
+        <input type="submit" value="Simpan">
+    </form>
+
+</body>
+
+</html>
